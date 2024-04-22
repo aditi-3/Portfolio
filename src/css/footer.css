@@ -1,0 +1,12 @@
+.footer-container{
+    background-color: #ffff;
+    color: #6b705c;
+    padding: 1rem;
+}
+
+.footer-text h1{
+    align-items: center;
+    font-size: small;
+    margin-left: 50%;
+    justify-content: center;
+}

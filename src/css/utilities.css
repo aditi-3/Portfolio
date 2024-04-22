@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
+
+.row{
+    flex-direction: row;
+}

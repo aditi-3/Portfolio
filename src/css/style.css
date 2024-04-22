@@ -1,0 +1,91 @@
+.home-container{
+    background-color: #ddbea9;
+    block-size: 675px;
+}
+
+.home-content{
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.arrow{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 5rem;
+    font-size: 5rem;
+    color: white;
+    cursor: pointer;
+
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.arrow-bounce{
+    animation-name: arrow-bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes arrow-bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+}
+
+.arrow:hover{
+    text-decoration: none;
+    color: #6b705c;
+    transition: color 0.5s; 
+}
+
+.arrow-up-content{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    color: #513f33;
+    text-align: center;
+
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.arrow-up-text{
+    font-size: small;
+    margin-right:0px;
+}
+
+.arrow-bounce-smaller{
+    animation-name: arrow-bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes arrow-bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.typewriter h1{
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(10, end) forwards,
+    blink-caret .75s step-end infinite;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }

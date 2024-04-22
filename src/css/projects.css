@@ -1,0 +1,16 @@
+.projects-container{
+    background-color: #e9edc9;
+    display: flex;
+    block-size: 500px;
+    color: #6b705c;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.projects-text{
+    display: flexbox;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
